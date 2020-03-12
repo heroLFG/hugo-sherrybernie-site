@@ -1,3 +1,21 @@
-baseURL = "http://example.org/"
+baseURL = "https://sb.herolfg.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Sherry Bernie Designs"
+theme = "hello-friend-ng"
+
+[params]
+    homeSubtitle = "Follow me on Instagram"
+
+[params.logo]
+    logoText     = "hello"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoCursorColor    = "#67a2c9"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+[[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/sherryberniedesigns/"
